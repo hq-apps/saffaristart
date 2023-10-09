@@ -1,7 +1,12 @@
 import { store, type Store } from "./store";
 
 let homelinks = [
-  {title: "hq apps", icon: "https://hqapps.org/icens/512.png", link: "https://hqapps.org"}
+  {title: "hq apps", icon: "https://hqapps.org/icens/512.png", link: "https://hqapps.org", system: true},
+  {title: "Saffari WebSite", icon: "https://saffari.tk/icon.png", link: "https://saffari.tk", system: true},
+  {title: "HQ Gaming", icon: "/gaming.png", link: "https://games.hqapps.org", system: true},
+  {title: "Saffari Start", icon: "https://saffari.tk/icon.png", link: "https://start.saffari.tk", system: true},
+  {title: "join", icon: "/discord-mark-blue.png", link: "https://hqapps.org/dc", system: true},
+  {title: "subscribe hq apps", icon: "https://icons.duckduckgo.com/ip3/www.youtube.com.ico", link: "https://www.youtube.com/@hq_apps?sub_confirmation=1", system: true},
 ]
 
 export function readFromStorage(): Object[] {
